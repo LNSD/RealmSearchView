@@ -1,4 +1,4 @@
-#SearchView with result list powered by Realm (WIP)
+#SearchView with result list powered by Realm
 
 The `RealmSearchView` extends Android's `SearchView` widget. This is an much simpler and more versatile approach than [Thorbenprimke's original](https://github.com/thorbenprimke/realm-searchview) `RealmSearchView` which implements a wrapper around a `EditText` and `RealmRecyclerView`. It's build on top of `RealmRecyclerView` and `RealmBasedRecyclerViewAdapter`.
 
@@ -9,6 +9,27 @@ It's easily customizable via layout attributes and adapter parameters.
 	<img src="https://raw.githubusercontent.com/LNSD/realm-searchview/master/artwork/screencast-demo-app.gif"/ width="320">
 </p>
 
+##How to include in your project:
+
+**Step 1.** Add the JitPack repository to your build file
+
+Add it in your [root build.gradle](https://github.com/LNSD/RealmSearchView/blob/master/build.gradle#L22) at the end of repositories:
+``` gradle
+	allprojects {
+		repositories {
+			...
+			maven { url "https://jitpack.io" }
+		}
+	}
+```
+
+**Step 2.** Add the dependency to your [module build.gradle](https://github.com/LNSD/RealmSearchView/blob/master/example/build.gradle#L37):
+
+``` gradle
+	dependencies {
+	        compile 'com.github.lnsd:RealmSearchView:v0.1.0'
+	}
+```
 
 ##How to get started:
 
@@ -77,17 +98,14 @@ In addition, the adapter has to be provided with a valid instance of Realm. It i
 ##Work in progress!
 This library is currently under develpment. I would love to hear your feedback. Do you find the `RealmSearchView` useful? What functionality are you missing? Open a `Github` issue and let me know. Thanks!
 
-##License
+##License [tl;dr](https://tldrlegal.com/license/mit-license)
 ```
-Licensed under the Apache License, Version 2.0 (the "License");
-you may not use this file except in compliance with the License.
-You may obtain a copy of the License at
+The MIT License (MIT)
+Copyright (c) 2016 Lorenzo Delgado
 
-   http://www.apache.org/licenses/LICENSE-2.0
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
-Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an "AS IS" BASIS,
-WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-See the License for the specific language governing permissions and
-limitations under the License.
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 ```

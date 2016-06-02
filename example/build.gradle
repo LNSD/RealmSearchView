@@ -34,5 +34,5 @@ dependencies {
 
     compile 'com.github.thorbenprimke:realm-recyclerview:0.9.19'
     compile 'com.github.thorbenprimke:realm-searchview:0.9.6'
-    compile project(':library')
+    compile 'com.github.lnsd:RealmSearchView:v0.1.0'
 }
