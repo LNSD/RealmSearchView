@@ -7,7 +7,7 @@ It's easily customizable via layout attributes and adapter parameters.
 
 ##Example
 <p align="center">
-	<img src="https://raw.githubusercontent.com/LNSD/realm-searchview/master/artwork/screencast-demo-app.gif"/ width="320">
+	<img src="https://github.com/LNSD/RealmSearchView/blob/master/artwork/screencast-demo-app.gif"/ width="320">
 </p>
 
 ##How to include in your project:
