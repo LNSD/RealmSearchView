@@ -1,13 +1,13 @@
-#SearchView with Realm DB results list 
-####Powered by [<img src="https://realm.io/assets/svg/general_logo.svg" height=22 />](https://realm.io/)
+#SearchView with Realm DB results list
+####Powered by [<img src="https://realm.io/assets/svg/general_logo.svg" height="22">](https://realm.io/)
 
-The `RealmSearchView` extends Android's `SearchView` widget. This is an much simpler and more versatile approach than [Thorbenprimke's original](https://github.com/thorbenprimke/realm-searchview) `RealmSearchView` which implements a wrapper around a `EditText` and `RealmRecyclerView`. It's build on top of `RealmRecyclerView` and `RealmBasedRecyclerViewAdapter`.
+The `RealmSearchView` extends Android's `SearchView` widget. This is an much simpler and more versatile approach than [Thorbenprimke's original](https://github.com/thorbenprimke/realm-searchview) `RealmSearchView` which implements a wrapper around a `EditText` and `RealmRecyclerView`. It's built on top of `RealmRecyclerView` and `RealmBasedRecyclerViewAdapter`.
 
 It's easily customizable via layout attributes and adapter parameters.
 
 ##Example
 <p align="center">
-	<img src="https://github.com/LNSD/RealmSearchView/blob/master/artwork/screencast-demo-app.gif"/ width="320">
+	<img src="https://github.com/LNSD/RealmSearchView/blob/master/artwork/screencast-demo-app.gif" width="320">
 </p>
 
 ##How to include in your project:
@@ -57,7 +57,7 @@ A `RealmRecyclerView` is required to show the results list.
             app:rrvEmptyLayoutId="@layout/empty_view" />
 ```
 
-The `associateRealmRecyclerView()` method **MUST** be called before calling the `setAdapter()`. Like [here](https://github.com/LNSD/RealmSearchView/blob/master/example/src/main/java/es/lnsd/example/activities/MainActivity.java#L63)
+The `associateRealmRecyclerView()` method **MUST** be called before calling the `setAdapter()`. Like [here](https://github.com/LNSD/RealmSearchView/blob/master/example/src/main/java/es/lnsd/example/activities/MainActivity.java#L63).
 
 ``` java
     @Bind(R.id.search_view) RealmSearchView searchView;
@@ -99,7 +99,7 @@ In addition, the adapter has to be provided with a valid instance of Realm. It i
 ##Work in progress!
 This library is currently under develpment. I would love to hear your feedback. Do you find the `RealmSearchView` useful? What functionality are you missing? Open a `Github` issue and let me know. Thanks!
 
-##License [tl;dr](https://tldrlegal.com/license/apache-license-2.0-(apache-2.0))
+##License ([tl;dr](https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)))
 ```
 Copyright (c) 2016 Lorenzo Delgado
 
