@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="splash_max_delay_sec">2</integer>
+    <string name="realm_db_filename">default.realm</string>
+</resources>

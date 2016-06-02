@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Realm search</string>
+
+    <string name="title_activity_main">Realm SearchView</string>
+    <string name="action_settings">Settings</string>
+    <string name="empty_string">No results found.</string>
+    <string name="rsv_default_search_hint">Search</string>
+</resources>
