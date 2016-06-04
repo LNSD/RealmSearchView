@@ -24,13 +24,18 @@ Add it in your [root build.gradle](https://github.com/LNSD/RealmSearchView/blob/
 	}
 ```
 
-**Step 2.** Add the dependency to your [module build.gradle](https://github.com/LNSD/RealmSearchView/blob/master/example/build.gradle#L37):
+**Step 2.** Add the following dependencies to your [module build.gradle](https://github.com/LNSD/RealmSearchView/blob/master/example/build.gradle#L37):
 
 ``` gradle
 	dependencies {
 	        compile 'com.github.lnsd:RealmSearchView:v0.1.0'
+	        
+	      	compile 'com.github.thorbenprimke:realm-recyclerview:0.9.19'
+	        compile 'com.github.thorbenprimke:realm-searchview:0.9.6'
 	}
 ```
+
+This library requires thorbenprimke's `RealmRecyclerView` and `RealmSearchViewAdapter` classes.
 
 ##How to get started:
 
